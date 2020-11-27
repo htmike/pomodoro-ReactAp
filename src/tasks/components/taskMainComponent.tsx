@@ -24,7 +24,7 @@ export default function TasksMain(props: any) {
           <List>
             {tasks.map(task => {
               return (
-                <TaskItem tasks={tasks} setTasks={setTasks} task={task} setCurrentTask={setCurrentTask}/>
+                <TaskItem key={task.name} tasks={tasks} setTasks={setTasks} task={task} setCurrentTask={setCurrentTask}/>
               )
             })}
             <AddTaskModal tasks={tasks} setTasks={setTasks} />

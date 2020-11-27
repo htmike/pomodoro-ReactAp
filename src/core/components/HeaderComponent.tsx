@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <AppBar color="default">
       <Toolbar variant="dense" style={styles.toolbar}>
-        <Button variant="outlined">login</Button>
+        <span></span>
         <span>Pomodoro App</span>
         <IconButton>
           <Settings />

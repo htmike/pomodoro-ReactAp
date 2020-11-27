@@ -10,7 +10,7 @@ export default function App(): JSX.Element {
   return (
     <React.Fragment>
       <Header />
-      <TimerMain currentTask={currentTask} />
+      <TimerMain currentTask={currentTask} setCurrentTask={setCurrentTask} />
       <TasksMain setCurrentTask={setCurrentTask} />
     </React.Fragment>
   )
