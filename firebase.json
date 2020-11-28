@@ -1,0 +1,11 @@
+{
+    "hosting": {
+        "public": "build",
+        "site": "pomodoro-reactApp"
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ]
+    }
+}
